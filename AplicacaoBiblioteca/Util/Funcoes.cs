@@ -6,7 +6,7 @@ using System.Text;
 namespace AplicacaoBiblioteca.Util
 {
     public static class Funcoes
-    {
+    { 
         public static string CriaJWTToken(IConfiguration configuration)
         {
             var claims = new List<Claim> {
